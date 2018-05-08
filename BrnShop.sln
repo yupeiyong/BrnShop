@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Libraries", "1.Libraries", "{389295E0-944E-4F89-8823-E80333A84E2A}"
 EndProject
@@ -68,6 +68,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrnShop.PayPlugin.WeChat", "Plugins\BrnShop.PayPlugin.WeChat\BrnShop.PayPlugin.WeChat.csproj", "{F716AE9F-681E-468C-B91D-A644532DA4B7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrnShop.IPSeekStrategy.IPFile", "Strategies\BrnShop.IPSeekStrategy.IPFile\BrnShop.IPSeekStrategy.IPFile.csproj", "{9B3797CA-D81E-4DEE-92F0-D9D8D3718D66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4165A41D-F19B-497D-890D-0B3E926E9AB7}"
+	ProjectSection(SolutionItems) = preProject
+		学习总结.txt = 学习总结.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -225,5 +230,8 @@ Global
 		{A5D359FD-C5E2-4417-AB3D-030803A48F34} = {18DFC54D-C4BF-4645-96A8-27E724901011}
 		{F716AE9F-681E-468C-B91D-A644532DA4B7} = {F2498C4A-7571-424D-B2BD-3BCAC1F88018}
 		{9B3797CA-D81E-4DEE-92F0-D9D8D3718D66} = {18DFC54D-C4BF-4645-96A8-27E724901011}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6F976CF-1494-4C13-AA17-D3E95C213879}
 	EndGlobalSection
 EndGlobal

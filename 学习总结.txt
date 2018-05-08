@@ -1,0 +1,12 @@
+解决方案结构：
+    Libraries：商城基础类库，主要提供系统核心，数据访问，业务逻辑等功能。
+    Presentation：商城web展示，提供网站前台和后台实现。
+    Strategies：包含各种策略程序集
+    Plugins：包含开发授权，支付等插件。
+项目简介：
+	BrnShop.Core项目：这个项目是BrnShop最核心的项目，它提供商城最底层，最基础的服务。
+	BrnShop.Data项目:这个项目主要是通过调用BrnShop.Core项目中的BSPData类来和各种数据存储做交互。
+	BrnShop.Services项目:商城的业务功能实现，如果你想找商城某个功能的实现可以来这个项目中找，例如购物车的实现。PS：在BrnShop.Service项目中有个Admin文件夹，这个文件夹是商城后台操作要用到的类。
+	BrnShop.Web.Framework项目:这个项目主要提供商城web层面的设计。大家可以打开看一看里面都是自定义控制器类，分页，动作筛选器等MVC方面的东西。
+	BrnShop.Web.Admin项目:商城网站后台，这个项目的类型是类库，不是web项目(但mvc的各部分俱全)，所以不能直接启动。
+	BrnShop.Web项目:商城网站前台：使用ASP.NET MVC3实现。
